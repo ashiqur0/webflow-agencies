@@ -40,3 +40,7 @@ nav h3 {
     font-size: 65px;
     font-weight: 800;
 }
+header {
+    background-image: url(/Assets/Hero-bg.png);
+    background-repeat: no-repeat; 
+}
