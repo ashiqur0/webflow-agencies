@@ -3,3 +3,32 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+/* shared style */
+.text-primary {
+    color: #4E47FF;
+}
+.text-color2 {
+    color: #252432;
+}
+.btn-primary {
+    background-color: #4E47FF;
+    font-style: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* nav styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px 0 150px;
+}
+.banner {
+    font-size: 65px;
+    font-style: bold;
+    margin: 310px 270px 240px 310px;
+}
