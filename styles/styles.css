@@ -27,8 +27,16 @@ nav {
     justify-content: space-between;
     margin: 0 150px 0 150px;
 }
-.banner {
-    font-size: 65px;
-    font-style: bold;
+nav h3 {
+    font-size: 34px;
+    font-weight: 800;
+}
+.banner-container {
     margin: 310px 270px 240px 310px;
+    text-align: center;
+    gap: 37px;
+}   
+.banner-container h2 {
+    font-size: 65px;
+    font-weight: 800;
 }
