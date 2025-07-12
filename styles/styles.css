@@ -160,3 +160,30 @@ main section img {
     margin-top: 0px;
     color: rgba(179, 179, 179, 1);
 }
+
+/* section4 style */
+.ready {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 14px;
+    margin: 150px;
+    padding: 71px 150px;
+}
+.ready h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 0;
+}
+.ready p {
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+}
+.ready button {
+    margin-bottom: 20px;
+}
