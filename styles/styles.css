@@ -202,6 +202,7 @@ main section img {
     height: 232px;
     margin: 200px 115px 130px 0px;
     margin-left: 0px;
+    margin-bottom: 300px;
     font-size: 97px;
     font-style: bold;
 }
@@ -226,4 +227,47 @@ main section img {
 }
 .message-box {
     height: 70px;
+}
+form button {
+    width: 540px;
+    margin-top: 10px;
+}
+
+/* Footer Style */
+footer {
+    background-color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container {
+    width: 531px;
+    height: 400px;
+    margin: 150px 450px;
+    padding-top: 5px;
+}
+.footer-container h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: inter;
+    color: #4E47FF;
+    font-weight: 900;
+    margin-top: 104px;
+    margin-bottom: 0px;
+}
+.footer-container p {
+    text-align: center;
+    margin-top: 0px;
+    color: #8987A1;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li a {
+    text-decoration: none;    
+    color:  #8987A1;
 }
