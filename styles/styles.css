@@ -22,9 +22,16 @@
 }
 
 /* nav styles */
+header {
+    background-image: url(/Assets/Hero-bg.png);
+    margin-top: 0px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0 150px 0 150px;
 }
 nav h3 {
@@ -32,7 +39,7 @@ nav h3 {
     font-weight: 800;
 }
 .banner-container {
-    margin: 310px 270px 240px 310px;
+    margin: 310px 270px 152px 310px;
     text-align: center;
     gap: 37px;
 }   
@@ -40,7 +47,6 @@ nav h3 {
     font-size: 65px;
     font-weight: 800;
 }
-header {
-    background-image: url(/Assets/Hero-bg.png);
-    background-repeat: no-repeat; 
+.banner-btn {
+    margin-bottom: 152px;
 }
