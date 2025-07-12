@@ -187,3 +187,43 @@ main section img {
 .ready button {
     margin-bottom: 20px;
 }
+
+/* section 5 style */
+.form {
+    margin: 100px 150px;
+    padding: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: auto;
+}
+.form .title {
+    width: 528px;
+    height: 232px;
+    margin: 200px 115px 130px 0px;
+    margin-left: 0px;
+    font-size: 97px;
+    font-style: bold;
+}
+.form h5 {
+    font-size: 18px;
+    font-family: inter;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.email-box, .name-box, .message-box {
+    font-size: 20px;
+    font-style: normal;
+    font-family: inter;
+    width: 500px;
+    height: 30px;
+    padding: 20px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+.message-box {
+    height: 70px;
+}
